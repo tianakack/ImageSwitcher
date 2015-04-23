@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tzhy.imageswitcher.MainActivity" >
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ImageSwitcher>
+
+    <LinearLayout
+        android:id="@+id/imageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+    
+</FrameLayout>
